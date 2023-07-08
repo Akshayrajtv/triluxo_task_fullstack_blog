@@ -1,0 +1,77 @@
+.write {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.writeTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.writeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.writeFormGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.writeLabel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #888;
+    transition: background-color 0.3s;
+}
+
+.writeIcon {
+    margin-right: 5px;
+}
+
+.writeInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.writeTitleInput {
+    height: 50px;
+    font-weight: bold;
+}
+
+.writeContentInput {
+    height: 200px;
+}
+
+.writeSubmit {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.writeSubmit:hover {
+    background-color: #0056b3;
+}
